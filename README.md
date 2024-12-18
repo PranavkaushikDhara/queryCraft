@@ -9,13 +9,17 @@
 - Real-time query execution and results display.
 
 ## Usage
-1. Run the app:
+1. Install the requirements using:
    ```bash
-   streamlit run querycraft.py
+   pip install -r requirements.txt
    ```
-2. Enter database credentials (name, username, password, port).
-3. Ask a question (e.g., "How many users are there?").
-4. View the generated SQL query and its result.
+3. Run the app:
+   ```bash
+   streamlit run app.py
+   ```
+4. Enter database credentials (name, username, password, port).
+5. Ask a question (e.g., "How many users are there?").
+6. View the generated SQL query and its result.
 
 ## Example
 - **Question**: "How many users joined last month?"
@@ -29,4 +33,4 @@
   ```
 
 ## Contributions
-Feel free to contribute via issues or pull requests. 🚀
+Feel free to contribute via issues or pull requests.
